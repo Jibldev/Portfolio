@@ -1,4 +1,3 @@
-import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
 import Banner from "../components/banner/banner";
 import DownloadCV from "~/components/dlcv/dlcv";
@@ -9,7 +8,6 @@ const Home = () => {
     <>
       <div className="home">
         <div className="headerpic">
-          < Header />
           <img src="app/images/background.jpg" alt="Background" className="background-pic" />
         </div>
         <div className="about">
@@ -45,6 +43,12 @@ const Home = () => {
         </div>
         <div className="CVbutton">
           <DownloadCV />
+        </div>
+        <div className="projects">
+          <Banner
+            backgroundImage="app/images/banner.jpg"
+            text="Mes projets"
+          />
         </div>
       </div>
       <Footer />
