@@ -1,5 +1,6 @@
 import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
+import Banner from "../components/banner/banner";
 import "app/styles/welcome.sass"
 
 const Home = () => {
@@ -12,9 +13,36 @@ const Home = () => {
         </div>
         <div className="about">
           <img src="app/images/profil.jpg" alt="Photo de profil" className="profile-pic" />
-          <h1>Bienvenue sur mon portfolio</h1>
-          <p>Je suis Mistral Antoine, développeur web passionné. Découvrez mes projets et mon parcours.</p>
+          <div className="txt">
+            <h1>Bienvenue sur mon portfolio</h1>
+            <p>Je suis Mistral Antoine, développeur web passionné. Découvrez mes projets et mon parcours.</p>
+            <p>Que ce soit pour améliorer un site web en place ou développer de nouvelles fonctionnalités, je suis à votre disposition pour vous proposer des solutions techniques adaptées.</p>
+          </div>
         </div>
+        <div className="competences">
+          <Banner
+            backgroundImage="app/images/banner.jpg"
+            text="Mes compétences"
+          />
+          <div className="details">
+            <div className="front">
+              <img src="app/images/html5.png" alt="HTML" className="front-pic"></img>
+              <br></br>
+              <h2>Front-End</h2>
+              <p><b>Langages :</b> Javascript, Typescript</p>
+              <p><b>Frameworks et Bibliothèques :</b> React</p>
+              <p><b>Intégration Web :</b> HTML5, CSS3 (Flexbox, Grid, animations CSS)</p>
+            </div>
+            <div className="back">
+              <img src="app/images/backend.jpg" alt="Backend" className="back-pic"></img>
+              <h2>Back-end</h2>
+              <p><b>Langages et Frameworks :</b> Node.js(Express.js)</p>
+              <p><b>Base de données :</b> MongoDB</p>
+              <p><b>API :</b> Création et consommation d'API REST</p>
+            </div>
+          </div>
+        </div>
+
       </div>
       <Footer />
     </>
