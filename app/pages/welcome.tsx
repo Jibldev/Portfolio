@@ -1,6 +1,7 @@
 import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
 import Banner from "../components/banner/banner";
+import DownloadCV from "~/components/dlcv/dlcv";
 import "app/styles/welcome.sass"
 
 const Home = () => {
@@ -42,7 +43,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-
+        <div className="CVbutton">
+          <DownloadCV />
+        </div>
       </div>
       <Footer />
     </>
