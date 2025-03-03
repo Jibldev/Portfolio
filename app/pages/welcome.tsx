@@ -1,6 +1,7 @@
 import Footer from "../components/footer/footer";
 import Banner from "../components/banner/banner";
 import DownloadCV from "~/components/dlcv/dlcv";
+import Projects from "~/components/projectcard/projectcard";
 import "app/styles/welcome.sass"
 
 const Home = () => {
@@ -49,6 +50,7 @@ const Home = () => {
             backgroundImage="app/images/banner.jpg"
             text="Mes projets"
           />
+          <Projects />
         </div>
       </div>
       <Footer />
