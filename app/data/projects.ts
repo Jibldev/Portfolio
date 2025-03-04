@@ -29,7 +29,7 @@ const projects: Project[] = [
     title: "Mon vieux grimoire",
     description: "Création d'un backend d'un site de notation de livres",
     image: "/livres.png",
-    liveUrl: "https://mon-projet-3.vercel.app",
+    liveUrl: "https://projet-6-backend-alpha.vercel.app/",
     githubUrl: "https://github.com/Jibldev/Projet-6-Backend",
   },
 ];
