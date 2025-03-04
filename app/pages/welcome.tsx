@@ -9,10 +9,10 @@ const Home = () => {
     <>
       <div className="home">
         <div className="headerpic">
-          <img src="app/images/background.jpg" alt="Background" className="background-pic" />
+          <img src="../public/background.jpg" alt="Background" className="background-pic" />
         </div>
         <div className="about">
-          <img src="app/images/profil.jpg" alt="Photo de profil" className="profile-pic" />
+          <img src="../public/profil.jpg" alt="Photo de profil" className="profile-pic" />
           <div className="txt">
             <h1>Bienvenue sur mon portfolio</h1>
             <p>Je suis Mistral Antoine, développeur web passionné. Découvrez mes projets et mon parcours.</p>
@@ -21,12 +21,12 @@ const Home = () => {
         </div>
         <div className="competences">
           <Banner
-            backgroundImage="app/images/banner.jpg"
+            backgroundImage="../public/banner.jpg"
             text="Mes compétences"
           />
           <div className="details">
             <div className="front">
-              <img src="app/images/html5.png" alt="HTML" className="front-pic"></img>
+              <img src="../public/html5.png" alt="HTML" className="front-pic"></img>
               <br></br>
               <h2>Front-End</h2>
               <p><b>Langages :</b> Javascript, Typescript</p>
@@ -34,7 +34,7 @@ const Home = () => {
               <p><b>Intégration Web :</b> HTML5, CSS3 (Flexbox, Grid, animations CSS)</p>
             </div>
             <div className="back">
-              <img src="app/images/backend.jpg" alt="Backend" className="back-pic"></img>
+              <img src="../public/backend.jpg" alt="Backend" className="back-pic"></img>
               <h2>Back-end</h2>
               <p><b>Langages et Frameworks :</b> Node.js(Express.js)</p>
               <p><b>Base de données :</b> MongoDB</p>
@@ -47,7 +47,7 @@ const Home = () => {
         </div>
         <div className="projects">
           <Banner
-            backgroundImage="app/images/banner.jpg"
+            backgroundImage="../public/banner.jpg"
             text="Mes projets"
           />
           <Projects />
