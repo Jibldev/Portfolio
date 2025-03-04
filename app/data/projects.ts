@@ -13,7 +13,7 @@ const projects: Project[] = [
     title: "Nina Carducci",
     description: "Optimisation du site, de son SEO et de son accessibilité",
     image: "/Opti.png",
-    liveUrl: "https://jibldev.github.io/Projet-4/",
+    liveUrl: "https://projetopti.vercel.app/",
     githubUrl: "https://github.com/Jibldev/Projet-4",
   },
   {
