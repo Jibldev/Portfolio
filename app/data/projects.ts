@@ -21,7 +21,7 @@ const projects: Project[] = [
     title: "Rental App Master",
     description: "Création d'un site WEB de location immobilière avec React",
     image: "/location.png",
-    liveUrl: "https://rental-app-master-d5qvzfv73-jibls-projects.vercel.app/about",
+    liveUrl: "https://rental-app-master.vercel.app/",
     githubUrl: "https://github.com/Jibldev/rental-app-master",
   },
   {
