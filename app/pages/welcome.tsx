@@ -15,8 +15,8 @@ const Home = () => {
           <img src="/profil.jpg" alt="Photo de profil" className="profile-pic" />
           <div className="txt">
             <h1>Bienvenue sur mon portfolio</h1>
-            <p>Je suis Mistral Antoine, développeur web passionné. Découvrez mes projets et mon parcours.</p>
-            <p>Que ce soit pour améliorer un site web en place ou développer de nouvelles fonctionnalités, je suis à votre disposition pour vous proposer des solutions techniques adaptées.</p>
+            <p>Je suis Mistral Antoine, développeur web passionné, avec une expertise en conception et développement d’applications web. À travers ce portfolio, découvrez mes réalisations.</p>
+            <p>Motivé par l’apprentissage continu et l’optimisation des expériences utilisateur, je suis à la recherche d’une opportunité en entreprise où je pourrai mettre mes compétences au service de projets innovants et collaborer avec des équipes dynamiques.</p>
           </div>
         </div>
         <div className="competences">
